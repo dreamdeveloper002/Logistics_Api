@@ -42,7 +42,7 @@ const userSchema = new mongoose.Schema({
             validator: function(v) {
                 return /d{11}/.test(v);
             },
-            message: '{VALUE} is not a valid 10 digit number!'
+            message: '{VALUE} is not a valid 11 digit number!'
         }
     },
      age: {
